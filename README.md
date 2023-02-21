@@ -1,5 +1,5 @@
 # PdPtCoreShellNanoparticles
-This repository contains the code  and data for the following paper:
+This repository contains the code and data for the following paper:
 
 **Probing the atomically diffuse interfaces in core-shell nanoparticles in three dimensions**
 
@@ -17,28 +17,28 @@ Zezhou Li<sup>1</sup>, Zhiheng Xie<sup>1</sup>, Yao Zhang<sup>1</sup>, Xilong Mu
 
 Folder: [Measured_data](./1_Measured_data)
 
-This folder contains .
+This folder contains denoised and aligned ADF-STEM projections and corresponding finalized tilt angles for three Pd@Pt core-shell nanoparticles. Three particles are named PB (pentagonal bipyramid shaped), EPB (elongated pentagonal bipyramid shaped) and TO (truncated octahedron shaped), respectively.
 
 ### 2. Reconstructed 3D Volume
 
-Folder: [Final_reconstruction_volume](./3_Final_reconstruction_volume)
+Folder: [Final_reconstruction_volume](./2_Final_reconstruction_volume)
 
-This folder contains .
+This folder contains 3D tomographic reconstruction volumes of three particles. For the source code of RESIRE algorithm used in these reconstructions, please see the [source code](https://github.com/AET-MetallicGlass/Supplementary-Data-Codes/tree/master/2_RESIRE_package) of Yao Yang's paper on github.
 
 ### 3. Atom Tracing and Classification
 
-Folder: [Tracing_and_classification](./4_Tracing_and_classification)
+Folder: [Tracing_and_classification](./3_Tracing_and_classification)
 
-This folder contains .
+This folder contains the source code to trace and classify atoms in the 3D volume.
 
 ### 4. Experimental Atomic Models
 
-Folder: [Final_coordinates](./5_Final_coordinates)
+Folder: [Final_coordinates](./4_Final_coordinates)
 
-This folder contains .
+This folder contains the final .
 
 ### 5. Analysis of core-shell interface
 
-Folder: [Final_coordinates](./6_Simulation_reconstruction_and_coordinates)
+Folder: [Analysis_of_interface](./5_Analysis_of_interface)
 
 This folder contains .
