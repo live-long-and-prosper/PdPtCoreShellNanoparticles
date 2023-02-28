@@ -37,7 +37,7 @@ Folder: [Final_coordinates](./4_Final_coordinates)
 
 This folder contains the final coordinates of three nanoparticles.
 
-### 5. Analysis of core-shell interface
+### 5. Analysis of core-shell interface and others
 
 Folder: [Analysis_of_interface](./5_Analysis_of_interface)
 
