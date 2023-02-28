@@ -35,10 +35,10 @@ This folder contains the source code to trace and classify atoms in the 3D volum
 
 Folder: [Final_coordinates](./4_Final_coordinates)
 
-This folder contains the final .
+This folder contains the final coordinates of three nanoparticles.
 
 ### 5. Analysis of core-shell interface
 
 Folder: [Analysis_of_interface](./5_Analysis_of_interface)
 
-This folder contains .
+This folder contains the codes to analyse the pair distribution function (PDF), the core-shell interface, the local coordination structure (PTM), the displacement and strain map of three nanoparticles.
