@@ -1,0 +1,15 @@
+% use EPB as example
+
+% 0. load 3D reconstructed volume
+load('\2_Final_reconstruction_volume\reconstruction_PB.mat')
+% 1. compute local maximum and remove non-atoms
+volSize = size(vol);
+roughPos = FindLocalMaximums(vol);
+% 2. polynomial fit and exclude too closed atoms
+Dmin = 2.21; % Angstrom, minimum distance chose for Pd@Pt core-shell nanoparticles
+[pos_,tooClosePos] = PolynomialFit3DAtoms(vol,roughPos,Dmin,SimulationResult.res);
+figure;plotAtoms(pos,'good',{'red',10})
+hold on;plotAtoms(tooClosePos,'too close',{'blue',20})
+% 3. after manual check, classify by k-means
+res = 0.3434; % Angstrom, resolution of voxel (voxel size)
+[type,pos_sort] = IntegratedAtomClassification(pos,res,vol,2,'boxIntensity','kmeans',1);
