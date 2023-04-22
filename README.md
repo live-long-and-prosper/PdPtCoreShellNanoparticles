@@ -3,11 +3,13 @@ This repository contains the code and data for the following paper:
 
 **Probing the atomically diffuse interfaces in core-shell nanoparticles in three dimensions**
 
-Zezhou Li<sup>1</sup>, Zhiheng Xie<sup>1</sup>, Yao Zhang<sup>1</sup>, Xilong Mu<sup>1</sup>, Jisheng Xie<sup>1</sup>,  Haijing Yin<sup>1</sup>, Ya-wen Zhang<sup>1</sup>, Colin Ophus<sup>2</sup>, Jihan Zhou<sup>1†</sup>
+Zezhou Li<sup>1,2</sup>, Zhiheng Xie<sup>1,2</sup>, Yao Zhang<sup>1,2</sup>, Xilong Mu<sup>1,2</sup>, Jisheng Xie<sup>1,2</sup>,  Haijing Yin<sup>1</sup>, Ya-wen Zhang<sup>1</sup>, Colin Ophus<sup>3</sup>, Jihan Zhou<sup>1,2†</sup>
 
 *<sup>1</sup>Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China.*
 
-*<sup>2</sup>National Center for Electron Microscopy, Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.*
+*<sup>2</sup>Center for Integrated Spectroscopy, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China.*
+
+*<sup>3</sup>National Center for Electron Microscopy, Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.*
 
 *†Correspondence and requests for materials should be addressed to J. Z. (email: jhzhou@pku.edu.cn).*
 
